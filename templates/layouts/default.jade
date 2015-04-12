@@ -15,7 +15,9 @@ html
 		//- Customise the stylesheet for your site by editing /public/styles/site.less
 		//- All .less files will be automatically compiled and minified in production.
 		link(href="/styles/site.min.css", rel="stylesheet")
-
+		link(href="/styles/site/animate.css" rel="stylesheet")
+		link(href="/styles/site/style.css" rel="stylesheet")
+	
 		//- This file provides the default styling for the KeystoneJS Content Editor
 		if user && user.canAccessKeystone
 			link(href="/keystone/styles/content/editor.min.css", rel="stylesheet")
@@ -37,55 +39,77 @@ html
 	body
 
 		//- HEADER
-		#header: .container
+		.page-container
+			
 
-			//- Customise your site's navigation by changing the navLinks Array in ./routes/middleware.js
-			//- ... or completely change this header to suit your design.
-
-			div(role="navigation").navbar.navbar-default
-				.container-fluid
-					.navbar-header
-						button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+			#nav-bloc.bloc.l-bloc.bgc-2
+				.container.bloc-sm
+					div(role="navigation").navbar.row
+						.navbar-header
+							a(href="/").navbar-brand
+								img(src="../images/s_logo.png")
+							button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
 							span.sr-only Toggle navigation
 							span.icon-bar
 							span.icon-bar
 							span.icon-bar
-						a.navbar-brand(href='/') sanyuki_new_site
-					.collapse.navbar-collapse
-						ul.nav.navbar-nav.navbar-left
-							each link in navLinks
-								li(class=(section == link.key ? 'active' : null)): a(href=link.href)= link.label
-						ul.nav.navbar-nav.navbar-right
-							if user
-								if user.canAccessKeystone
-									li: a(href='/keystone') Open Keystone
-								li: a(href='/keystone/signout') Sign Out
-							else
-								li: a(href='/keystone/signin') Sign In
-
-		//- BODY
-		#body
-
-			//- NOTE:
-			//- There is no .container wrapping class around body blocks to allow more flexibility in design.
-			//- Remember to include it in your templates when you override the intro and content blocks!
-
-			//- The Intro block appears above flash messages (used for temporary information display)
-			block intro
+						.collapse.navbar-collapse.navbar-1
+							ul.site-navigation.nav
+								li: a(href="/") Home
+								li: a(href="/gallery") 美颜商城
+							
+					
+			
+			//div(role="navigation").navbar.navbar-default
+			//	.container-fluid
+			//		.navbar-header
+			//			button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+			//				span.sr-only Toggle navigation
+			//				span.icon-bar
+			//				span.icon-bar
+			//				span.icon-bar
+			//			a.navbar-brand(href='/') 
+			//		.collapse.navbar-collapse
+			//			ul.nav.navbar-nav.navbar-left
+			//				each link in navLinks
+			//					li(class=(section == link.key ? 'active' : null)): a(href=link.href)= link.label
+			//			ul.nav.navbar-nav.navbar-right
+			//				if user
+			//					if user.canAccessKeystone
+			//						li: a(href='/keystone') Open Keystone
+			//					li: a(href='/keystone/signout') Sign Out
+			//				else
+			//					li: a(href='/keystone/signin') Sign In
+		block intro
 
 			//- Flash messages allow you to display once-off status messages to users, e.g. form
 			//- validation errors, success messages, etc.
-			+flash-messages(messages)
+		+flash-messages(messages)
 
 			//- The content block should contain the body of your template's content
-			block content
+		block content
 
 
 		//- FOOTER
-		.container: #footer
+		.bloc.l-bloc#bloc-4
+			.container.bloc-sm#footer
+				.row
+					.col-sm-8 产品咨询/咨询服务：product@sanyuki.com | 商务合作：biz@sanyuki.com | 快递查询: express@sanyuki.com
+						p 中盛国联技术（北京）有限公司 © 2015
+						p 京ICP备13051004号 | 免费热线 400-0707-103
+					.col-sm-1 关于我们
+						a(href="/").a-btn.a-block The team
+						a(href="/").a-btn.a-block Contact US
+					.col-sm-1 App 下载
+						a(href="/").a-btn.a-block Android
+						a(href="/").a-btn.a-block iPhone
+					.col-sm-1 公司信息
+						a(href="/").a-btn.a-block Terms of use
+						a(href="/").a-btn.a-block Privacy
+						
 
 			//- You don't _have_ to include a link saying your site is powered by KeystoneJS, but we appreciate it!
-			p Powered by <a href="http://keystonejs.com" target="_blank">KeystoneJS</a>.
+			//p Powered by <a href="http://keystonejs.com" target="_blank">KeystoneJS</a>.
 
 
 		//- JAVASCRIPT

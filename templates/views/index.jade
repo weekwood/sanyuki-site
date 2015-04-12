@@ -1,23 +1,96 @@
 extends ../layouts/default
 
 block content
-	.container: .jumbotron
-		img(src='/images/logo.svg', width='160')
-		h1 Welcome
-		p This is your new <a href='http://keystonejs.com', target='_blank'>KeystoneJS</a> website.
-		p It includes the latest versions of
-			| <a href='http://getbootstrap.com/' target='_blank'>Bootstrap</a>
-			| and <a href='http://www.jquery.com/' target='_blank'>jQuery</a>.
-		p Visit the <a href='http://keystonejs.com/guide' target='_blank'>Getting Started</a> guide to learn how to customise it.
-		hr
-		if user && user.canAccessKeystone
-			p
-				a(href='/keystone').btn.btn-lg.btn-primary Open the Admin UI
-		else
-			p We have created a default Admin user for you with the email <strong>wudi@sanyuki.com</strong> and the password <strong>admin</strong>.
-			p
-				a(href='/keystone/signin', style='margin-right: 10px').btn.btn-lg.btn-primary Sign in
-				|  to use the Admin UI.
-		hr
-		p Remember to <a href='https://github.com/keystonejs/keystone' target='_blank'>Star KeystoneJS on GitHub</a> and
-			| <a href='https://twitter.com/keystonejs' target='_blank'>follow @keystonejs</a> on twitter for updates.
+	.bloc.d-bloc.b-divider.bg-tile-d-bg.bg-repeat#bloc-1
+		.container
+			.row.animated
+				.col-sm-12
+					#carousel-example-generic.carousel.slide(data-ride="carousel")
+						ol.carousel-indicators
+							li(class="active" data-target="#carousel-example-generic" data-slide-to="0")
+							li(data-target="#carousel-example-generic" data-slide-to="0")
+						
+						.carousel-inner(role="listbox")
+							.item.active
+								img(src="../images/bkg5.png" class="img-responsive")
+							.item
+								img(src="../images/5.jpg" class="img-responsive")
+						a.left.carousel-control(href="#carouse-example-genericl" role="button" data-slide="prev")
+							span.glyphicon.glyphicon-chevron-left(aria-hidden="true")
+							span.sr-only Previous
+						a.right.carousel-control(href="#carouse-example-genericl" role="button" data-slide="next")
+							span.glyphicon.glyphicon-chevron-right(aria-hidden="true")
+							span.sr-only Next	
+	
+	.bloc-button.btn.btn-d.scrollToTop(onclick="scrollToTarget('1')")
+		icon.fa.fa-chevron-up
+	
+	.bloc.l-bloc.hidden-sm.hidden-xs#bloc-3
+		.container.bloc-lg
+			.row.animated.fadeInUp
+				.col-md-8.col-md-offset-2
+					.col-md-12
+						.col-md-3.home-gold-row
+							.row.animated.fadeInUp
+								.col-md-6.num 100
+								.col-md-6
+									p.pw 倍
+									p 故障赔偿
+						.col-md-3.home-gold-row
+							.row.animated.fadeInUp
+								.col-md-6.num 7
+								.col-md-6
+									p.pw *24
+									p 技术支持
+						.col-md-3.home-gold-row
+							.row.animated.fadeInUp
+								.col-md-6.num 5
+								.col-md-6
+									p.pw 天
+									p 无理由退货
+						.col-md-3.home-gold-row
+							.row.animated.fadeInUp
+								.col-md-6.num 0
+								.col-md-6
+									p.pw 元
+									p 免费提供
+									
+	#bloc-1.bloc.d-bloc.b-divider.bg-tile-d-bg.bg-repeat
+		.container
+			.row.animated
+				.col-sm-12
+					#carousel-user-generic.carousel.slide(data-ride='carousel')
+						// Wrapper for slides
+						.carousel-inner(role='listbox')
+							.item.active(style='height:250px;')
+								img.img-responsive(src='../images/5.jpg', alt='', style='')
+								.carousel-caption.user-reviews
+									.media
+										.media-left
+											a(href='#')
+												img.media-object(data-src='holder.js/64x64', alt='64x64', src='data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGRlZnMvPjxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjEzLjQ2MDkzNzUiIHk9IjMyIiBzdHlsZT0iZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQ7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+NjR4NjQ8L3RleHQ+PC9nPjwvc3ZnPg==', data-holder-rendered='true', style='width: 64px; height: 64px;')
+										.media-body
+											h4#media-heading.media-heading
+												| Media heading
+												a.anchorjs-link(href='#media-heading')
+													span.anchorjs-icon
+											| 											Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+
+	#bloc-2.bloc.l-bloc.hidden-sm.hidden-xs
+		.container.bloc-lg
+			.row.animated.fadeInUp
+				.col-md-8.col-md-offset-2
+					.col-md-1
+					.col-md-2
+						img.img-responsive(src='../images/319_33.png', alt='')
+					.col-md-2
+						img.img-responsive(src='../images/319_35.png', alt='')
+					.col-md-2
+						img.img-responsive(src='../images/319_37.png', alt='')
+					.col-md-2
+						img.img-responsive(src='../images/319_39.png', alt='')
+					.col-md-2
+						img.img-responsive(src='../images/319_41.png', alt='')
+								
+	
+						
