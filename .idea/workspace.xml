@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49fbf199-0d45-49e8-97c8-5853de1737ad" name="Default" comment="init inidex page">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/views/product.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/views/products.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sanyuki_new_site.iws" />
@@ -56,6 +58,16 @@
       <file leaf-file-name="index.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/views/index.jade">
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product.jade" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/views/product.jade">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
@@ -66,21 +78,58 @@
       <file leaf-file-name="default.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/layouts/default.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
-              <folding />
+              <folding>
+                <marker date="1420296276000" expanded="true" signature="51:3932" placeholder="..." />
+                <marker date="1420296276000" expanded="true" signature="75:1240" placeholder="..." />
+                <marker date="1420296276000" expanded="true" signature="1261:3932" placeholder="..." />
+                <marker date="1420296276000" expanded="true" signature="1468:2224" placeholder="..." />
+                <marker date="1420296276000" expanded="true" signature="1563:1749" placeholder="..." />
+                <marker date="1420296276000" expanded="true" signature="1837:1982" placeholder="..." />
+                <marker date="1420296276000" expanded="true" signature="1991:2224" placeholder="..." />
+                <marker date="1420296276000" expanded="true" signature="2816:2826" placeholder="..." />
+                <marker date="1420296276000" expanded="true" signature="2974:3051" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="≈Æ…ÒÕº.jpg" pinned="false" current-in-tab="true">
+      <file leaf-file-name="≈Æ…ÒÕº.jpg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/images/sanyuki瀹樼綉4.4/ ◊“≥Õº/≈Æ…ÒÕº.jpg">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="gallery.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/views/gallery.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="products.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/views/products.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jade File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -120,8 +169,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -240,48 +287,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sanyuki_new_site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sanyuki_new_site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sanyuki_new_site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sanyuki_new_site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sanyuki瀹樼綉4.4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -292,6 +301,7 @@
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/keystone.js" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="editor.config.accepted" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -305,7 +315,36 @@
     </key>
   </component>
   <component name="RunManager" selected="Node.js.Unnamed">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <method />
     </configuration>
     <configuration default="false" name="Unnamed" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="/usr/local/bin/node" path-to-js-file="keystone.js" working-dir="$PROJECT_DIR$">
@@ -332,13 +371,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="802" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1761804" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1761804" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -346,7 +386,6 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32957748" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -410,8 +449,73 @@
     <entry file="file://$PROJECT_DIR$/templates/layouts/default.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+          <folding>
+            <marker date="1420296276000" expanded="true" signature="51:3932" placeholder="..." />
+            <marker date="1420296276000" expanded="true" signature="75:1240" placeholder="..." />
+            <marker date="1420296276000" expanded="true" signature="1261:3932" placeholder="..." />
+            <marker date="1420296276000" expanded="true" signature="1468:2224" placeholder="..." />
+            <marker date="1420296276000" expanded="true" signature="1563:1749" placeholder="..." />
+            <marker date="1420296276000" expanded="true" signature="1837:1982" placeholder="..." />
+            <marker date="1420296276000" expanded="true" signature="1991:2224" placeholder="..." />
+            <marker date="1420296276000" expanded="true" signature="2816:2826" placeholder="..." />
+            <marker date="1420296276000" expanded="true" signature="2974:3051" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/sanyuki瀹樼綉4.4/ ◊“≥Õº/≈Æ…ÒÕº.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/styles/site/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/styles/site/layout.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="87" column="6" selection-start-line="87" selection-start-column="6" selection-end-line="87" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/views/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layouts/default.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+          <folding>
+            <marker date="1420296276000" expanded="true" signature="51:3932" placeholder="..." />
+            <marker date="1420296276000" expanded="true" signature="75:1240" placeholder="..." />
+            <marker date="1420296276000" expanded="true" signature="1261:3932" placeholder="..." />
+            <marker date="1420296276000" expanded="true" signature="1468:2224" placeholder="..." />
+            <marker date="1420296276000" expanded="true" signature="1563:1749" placeholder="..." />
+            <marker date="1420296276000" expanded="true" signature="1837:1982" placeholder="..." />
+            <marker date="1420296276000" expanded="true" signature="1991:2224" placeholder="..." />
+            <marker date="1420296276000" expanded="true" signature="2816:2826" placeholder="..." />
+            <marker date="1420296276000" expanded="true" signature="2974:3051" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -451,7 +555,67 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1420296276000" expanded="true" signature="51:3932" placeholder="..." />
+            <marker date="1420296276000" expanded="true" signature="75:1240" placeholder="..." />
+            <marker date="1420296276000" expanded="true" signature="1261:3932" placeholder="..." />
+            <marker date="1420296276000" expanded="true" signature="1468:2224" placeholder="..." />
+            <marker date="1420296276000" expanded="true" signature="1563:1749" placeholder="..." />
+            <marker date="1420296276000" expanded="true" signature="1837:1982" placeholder="..." />
+            <marker date="1420296276000" expanded="true" signature="1991:2224" placeholder="..." />
+            <marker date="1420296276000" expanded="true" signature="2816:2826" placeholder="..." />
+            <marker date="1420296276000" expanded="true" signature="2974:3051" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/styles/site/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/styles/site/layout.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="87" column="6" selection-start-line="87" selection-start-column="6" selection-end-line="87" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/views/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layouts/default.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1420296276000" expanded="true" signature="51:3932" placeholder="..." />
+            <marker date="1420296276000" expanded="true" signature="75:1240" placeholder="..." />
+            <marker date="1420296276000" expanded="true" signature="1261:3932" placeholder="..." />
+            <marker date="1420296276000" expanded="true" signature="1468:2224" placeholder="..." />
+            <marker date="1420296276000" expanded="true" signature="1563:1749" placeholder="..." />
+            <marker date="1420296276000" expanded="true" signature="1837:1982" placeholder="..." />
+            <marker date="1420296276000" expanded="true" signature="1991:2224" placeholder="..." />
+            <marker date="1420296276000" expanded="true" signature="2816:2826" placeholder="..." />
+            <marker date="1420296276000" expanded="true" signature="2974:3051" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -526,6 +690,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layouts/default.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+          <folding>
+            <marker date="1420296276000" expanded="true" signature="51:3932" placeholder="..." />
+            <marker date="1420296276000" expanded="true" signature="75:1240" placeholder="..." />
+            <marker date="1420296276000" expanded="true" signature="1261:3932" placeholder="..." />
+            <marker date="1420296276000" expanded="true" signature="1468:2224" placeholder="..." />
+            <marker date="1420296276000" expanded="true" signature="1563:1749" placeholder="..." />
+            <marker date="1420296276000" expanded="true" signature="1837:1982" placeholder="..." />
+            <marker date="1420296276000" expanded="true" signature="1991:2224" placeholder="..." />
+            <marker date="1420296276000" expanded="true" signature="2816:2826" placeholder="..." />
+            <marker date="1420296276000" expanded="true" signature="2974:3051" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/sanyuki瀹樼綉4.4/ ◊“≥Õº/≈Æ…ÒÕº.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/views/gallery.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/views/products.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/views/index.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -534,17 +737,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/layouts/default.jade">
+    <entry file="file://$PROJECT_DIR$/templates/views/product.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/sanyuki瀹樼綉4.4/ ◊“≥Õº/≈Æ…ÒÕº.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
   </component>
