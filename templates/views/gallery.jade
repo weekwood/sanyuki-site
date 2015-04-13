@@ -3,4 +3,35 @@ extends ../layouts/default
 block intro
 	
 block content
+	.container.bloc-sm
+		.row
+			.col-lg-9
+				.masonry
+					a.product.height2(href="/gallery/1")
+						img(src="../images/chanpin1_24.png")
+						.hvr-sweep-to-top(style="position:absolute;top:0;left:0;width:100%;height:100%;background-color:white") wifi
+					a.product.w2
+						img(src="../images/chanpin1_33.png")
+						.hvr-sweep-to-top(style="position:absolute;top:0;left:0;width:100%;height:100%;background-color:white") wifi
+					a.product
+						img(src="../images/chanpin1_30.png")
+						.hvr-sweep-to-top(style="position:absolute;top:0;left:0;width:100%;height:100%;background-color:white") wifi
+					a.product.height2
+						img(src="../images/chanpin1_28.png")
+						.hvr-sweep-to-top(style="position:absolute;top:0;left:0;width:100%;height:100%;background-color:white") wifi		
+					a.product
+					a.product
+					a.product
+					a.product
+			.col-lg-3
+				.container
+					img(src="../images/chanpin1_05.png" style="width:100%")
 	
+block js
+	script.
+		$( document ).ready(function () {
+			var container = document.querySelector('.masonry');
+			var msnry = new Masonry(container, {
+			});
+			msnry.layout();
+		});

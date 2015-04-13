@@ -1,0 +1,783 @@
+/*!
+ * Hover.css (http://ianlunn.github.io/Hover/)
+ * Version: 2.0.2
+ * Author: Ian Lunn @IanLunn
+ * Author URL: http://ianlunn.co.uk/
+ * Github: https://github.com/IanLunn/Hover
+
+ * Made available under a MIT License:
+ * http://www.opensource.org/licenses/mit-license.php
+
+ * Hover.css Copyright Ian Lunn 2014. Generated with LESS.
+ */
+
+
+@import "../../../../../Desktop/Hover-master/less/_options";
+@import "../../../../../Desktop/Hover-master/less/_mixins";
+@import "../../../../../Desktop/Hover-master/less/_hacks";
+
+
+/* 2D TRANSITIONS */
+@import "../../../../../Desktop/Hover-master/less/effects/2d-transitions/_grow";
+& when(@includeClasses = true) {
+	.@{nameSpace}-grow {
+		.grow();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/2d-transitions/_shrink";
+& when(@includeClasses = true) {
+	.@{nameSpace}-shrink {
+		.shrink();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/2d-transitions/_pulse";
+& when(@includeClasses = true) {
+	.@{nameSpace}-pulse {
+		.pulse();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/2d-transitions/_pulse-grow";
+& when(@includeClasses = true) {
+	.@{nameSpace}-pulse-grow {
+		.pulse-grow();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/2d-transitions/_pulse-shrink";
+& when(@includeClasses = true) {
+	.@{nameSpace}-pulse-shrink {
+		.pulse-shrink();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/2d-transitions/_push";
+& when(@includeClasses = true) {
+	.@{nameSpace}-push {
+		.push();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/2d-transitions/_pop";
+& when(@includeClasses = true) {
+	.@{nameSpace}-pop {
+		.pop();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/2d-transitions/_bounce-in";
+& when(@includeClasses = true) {
+	.@{nameSpace}-bounce-in {
+		.bounce-in();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/2d-transitions/_bounce-out";
+& when(@includeClasses = true) {
+	.@{nameSpace}-bounce-out {
+		.bounce-out();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/2d-transitions/_rotate";
+& when(@includeClasses = true) {
+	.@{nameSpace}-rotate {
+		.rotate();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/2d-transitions/_grow-rotate";
+& when(@includeClasses = true) {
+	.@{nameSpace}-grow-rotate {
+		.grow-rotate();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/2d-transitions/_float";
+& when(@includeClasses = true) {
+	.@{nameSpace}-float {
+		.float();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/2d-transitions/_sink";
+& when(@includeClasses = true) {
+	.@{nameSpace}-sink {
+		.sink();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/2d-transitions/_bob";
+& when(@includeClasses = true) {
+	.@{nameSpace}-bob {
+		.bob();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/2d-transitions/_hang";
+& when(@includeClasses = true) {
+	.@{nameSpace}-hang {
+		.hang();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/2d-transitions/_skew";
+& when(@includeClasses = true) {
+	.@{nameSpace}-skew {
+		.skew();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/2d-transitions/_skew-forward";
+& when(@includeClasses = true) {
+	.@{nameSpace}-skew-forward {
+		.skew-forward();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/2d-transitions/_skew-backward";
+& when(@includeClasses = true) {
+	.@{nameSpace}-skew-backward {
+	    .skew-backward();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/2d-transitions/_wobble-vertical";
+& when(@includeClasses = true) {
+	.@{nameSpace}-wobble-vertical {
+		.wobble-vertical();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/2d-transitions/_wobble-horizontal";
+& when(@includeClasses = true) {
+	.@{nameSpace}-wobble-horizontal {
+		.wobble-horizontal();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/2d-transitions/_wobble-to-bottom-right";
+& when(@includeClasses = true) {
+	.@{nameSpace}-wobble-to-bottom-right {
+	    .wobble-to-bottom-right();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/2d-transitions/_wobble-to-top-right";
+& when(@includeClasses = true) {
+	.@{nameSpace}-wobble-to-top-right {
+	    .wobble-to-top-right();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/2d-transitions/_wobble-top";
+& when(@includeClasses = true) {
+	.@{nameSpace}-wobble-top {
+		.wobble-top();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/2d-transitions/_wobble-bottom";
+& when(@includeClasses = true) {
+	.@{nameSpace}-wobble-bottom {
+		.wobble-bottom();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/2d-transitions/_wobble-skew";
+& when(@includeClasses = true) {
+	.@{nameSpace}-wobble-skew {
+	    .wobble-skew();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/2d-transitions/_buzz";
+& when(@includeClasses = true) {
+	.@{nameSpace}-buzz {
+	    .buzz();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/2d-transitions/_buzz-out";
+& when(@includeClasses = true) {
+	.@{nameSpace}-buzz-out {
+	    .buzz-out();
+	}
+}
+
+/* BACKGROUND TRANSITIONS */
+@import "../../../../../Desktop/Hover-master/less/effects/background-transitions/_fade";
+& when(@includeClasses = true) {
+	.@{nameSpace}-fade {
+		.fade();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/background-transitions/_back-pulse";
+& when(@includeClasses = true) {
+	.@{nameSpace}-back-pulse {
+		.back-pulse();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/background-transitions/_sweep-to-right";
+& when(@includeClasses = true) {
+	.@{nameSpace}-sweep-to-right {
+		.sweep-to-right();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/background-transitions/_sweep-to-left";
+& when(@includeClasses = true) {
+	.@{nameSpace}-sweep-to-left {
+		.sweep-to-left();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/background-transitions/_sweep-to-bottom";
+& when(@includeClasses = true) {
+	.@{nameSpace}-sweep-to-bottom {
+		.sweep-to-bottom();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/background-transitions/_sweep-to-top";
+& when(@includeClasses = true) {
+	.@{nameSpace}-sweep-to-top {
+		.sweep-to-top();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/background-transitions/_bounce-to-right";
+& when(@includeClasses = true) {
+	.@{nameSpace}-bounce-to-right {
+		.bounce-to-right();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/background-transitions/_bounce-to-left";
+& when(@includeClasses = true) {
+	.@{nameSpace}-bounce-to-left {
+		.bounce-to-left();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/background-transitions/_bounce-to-bottom";
+& when(@includeClasses = true) {
+	.@{nameSpace}-bounce-to-bottom {
+		.bounce-to-bottom();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/background-transitions/_bounce-to-top";
+& when(@includeClasses = true) {
+	.@{nameSpace}-bounce-to-top {
+		.bounce-to-top();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/background-transitions/_radial-out";
+& when(@includeClasses = true) {
+	.@{nameSpace}-radial-out {
+		.radial-out();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/background-transitions/_radial-in";
+& when(@includeClasses = true) {
+	.@{nameSpace}-radial-in {
+		.radial-in();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/background-transitions/_rectangle-in";
+& when(@includeClasses = true) {
+	.@{nameSpace}-rectangle-in {
+		.rectangle-in();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/background-transitions/_rectangle-out";
+& when(@includeClasses = true) {
+	.@{nameSpace}-rectangle-out {
+		.rectangle-out();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/background-transitions/_shutter-in-horizontal";
+& when(@includeClasses = true) {
+	.@{nameSpace}-shutter-in-horizontal {
+		.shutter-in-horizontal();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/background-transitions/_shutter-out-horizontal";
+& when(@includeClasses = true) {
+	.@{nameSpace}-shutter-out-horizontal {
+		.shutter-out-horizontal();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/background-transitions/_shutter-in-vertical";
+& when(@includeClasses = true) {
+	.@{nameSpace}-shutter-in-vertical {
+		.shutter-in-vertical();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/background-transitions/_shutter-out-vertical";
+& when(@includeClasses = true) {
+	.@{nameSpace}-shutter-out-vertical {
+		.shutter-out-vertical();
+	}
+}
+
+
+/* BORDER TRANSITIONS */
+@import "../../../../../Desktop/Hover-master/less/effects/border-transitions/_border-fade";
+& when (@includeClasses = true) {
+	.@{nameSpace}-border-fade {
+		.border-fade();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/border-transitions/_hollow";
+& when (@includeClasses = true) {
+	.@{nameSpace}-hollow {
+		.hollow();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/border-transitions/_trim";
+& when (@includeClasses = true) {
+	.@{nameSpace}-trim {
+		.trim();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/border-transitions/_ripple-out";
+& when (@includeClasses = true) {
+	.@{nameSpace}-ripple-out {
+		.ripple-out();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/border-transitions/_ripple-in";
+& when (@includeClasses = true) {
+	.@{nameSpace}-ripple-in {
+		.ripple-in();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/border-transitions/_outline-out";
+& when (@includeClasses = true) {
+	.@{nameSpace}-outline-out {
+		.outline-out();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/border-transitions/_outline-in";
+& when (@includeClasses = true) {
+	.@{nameSpace}-outline-in {
+		.outline-in();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/border-transitions/_round-corners";
+& when (@includeClasses = true) {
+	.@{nameSpace}-round-corners {
+		.round-corners();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/border-transitions/_underline-from-left";
+& when (@includeClasses = true) {
+	.@{nameSpace}-underline-from-left {
+		.underline-from-left();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/border-transitions/_underline-from-center";
+& when (@includeClasses = true) {
+	.@{nameSpace}-underline-from-center {
+		.underline-from-center();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/border-transitions/_underline-from-right";
+& when (@includeClasses = true) {
+	.@{nameSpace}-underline-from-right {
+		.underline-from-right();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/border-transitions/_overline-from-left";
+& when (@includeClasses = true) {
+	.@{nameSpace}-overline-from-left {
+		.overline-from-left();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/border-transitions/_overline-from-center";
+& when (@includeClasses = true) {
+	.@{nameSpace}-overline-from-center {
+		.overline-from-center();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/border-transitions/_overline-from-right";
+& when (@includeClasses = true) {
+	.@{nameSpace}-overline-from-right {
+		.overline-from-right();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/border-transitions/_reveal";
+& when (@includeClasses = true) {
+	.@{nameSpace}-reveal {
+		.reveal();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/border-transitions/_underline-reveal";
+& when (@includeClasses = true) {
+	.@{nameSpace}-underline-reveal {
+		.underline-reveal();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/border-transitions/_overline-reveal";
+& when (@includeClasses = true) {
+	.@{nameSpace}-overline-reveal {
+		.overline-reveal();
+	}
+}
+
+
+/* SHADOW/GLOW TRANSITIONS */
+@import "../../../../../Desktop/Hover-master/less/effects/shadow-and-glow-transitions/_glow";
+& when (@includeClasses = true) {
+	.@{nameSpace}-glow {
+		.glow();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/shadow-and-glow-transitions/_shadow";
+& when (@includeClasses = true) {
+	.@{nameSpace}-shadow {
+		.shadow();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/shadow-and-glow-transitions/_grow-shadow";
+& when (@includeClasses = true) {
+	.@{nameSpace}-grow-shadow {
+		.grow-shadow();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/shadow-and-glow-transitions/_box-shadow-outset";
+& when (@includeClasses = true) {
+	.@{nameSpace}-box-shadow-outset {
+		.box-shadow-outset();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/shadow-and-glow-transitions/_box-shadow-inset";
+& when (@includeClasses = true) {
+	.@{nameSpace}-box-shadow-inset {
+		.box-shadow-inset();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/shadow-and-glow-transitions/_float-shadow";
+& when (@includeClasses = true) {
+	.@{nameSpace}-float-shadow {
+		.float-shadow();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/shadow-and-glow-transitions/_shadow-radial";
+& when (@includeClasses = true) {
+	.@{nameSpace}-show-radial {
+		.shadow-radial();
+	}
+}
+
+/* SPEECH BUBBLES */
+@import "../../../../../Desktop/Hover-master/less/effects/speech-bubbles/_bubble-top";
+& when(@includeClasses = true) {
+	.@{nameSpace}-bubble-top {
+		.bubble-top();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/speech-bubbles/_bubble-right";
+& when(@includeClasses = true) {
+	.@{nameSpace}-bubble-right {
+		.bubble-right();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/speech-bubbles/_bubble-bottom";
+& when(@includeClasses = true) {
+	.@{nameSpace}-bubble-bottom {
+		.bubble-bottom();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/speech-bubbles/_bubble-left";
+& when(@includeClasses = true) {
+	.@{nameSpace}-bubble-left {
+		.bubble-left();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/speech-bubbles/_bubble-float-top";
+& when(@includeClasses = true) {
+	.@{nameSpace}-bubble-float-top {
+		.bubble-float-top();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/speech-bubbles/_bubble-float-right";
+& when(@includeClasses = true) {
+	.@{nameSpace}-bubble-float-right {
+		.bubble-float-right();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/speech-bubbles/_bubble-float-bottom";
+& when(@includeClasses = true) {
+	.@{nameSpace}-bubble-float-bottom {
+		.bubble-float-bottom();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/speech-bubbles/_bubble-float-left";
+& when(@includeClasses = true) {
+	.@{nameSpace}-bubble-float-left {
+		.bubble-float-left();
+	}
+}
+
+/* ICONS */
+@import "../../../../../Desktop/Hover-master/less/effects/icons/_icon-back";
+& when(@includeClasses = true) {
+	.@{nameSpace}-icon-back {
+		.icon-back();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/icons/_icon-forward";
+& when(@includeClasses = true) {
+	.@{nameSpace}-icon-forward {
+		.icon-forward();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/icons/_icon-down";
+& when(@includeClasses = true) {
+	.@{nameSpace}-icon-down {
+		.icon-down();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/icons/_icon-up";
+& when(@includeClasses = true) {
+	.@{nameSpace}-icon-up {
+		.icon-up();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/icons/_icon-spin";
+& when(@includeClasses = true) {
+	.@{nameSpace}-icon-spin {
+		.icon-spin();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/icons/_icon-drop";
+& when(@includeClasses = true) {
+	.@{nameSpace}-icon-drop {
+		.icon-drop();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/icons/_icon-fade";
+& when(@includeClasses = true) {
+	.@{nameSpace}-icon-fade {
+		.icon-fade();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/icons/_icon-float-away";
+& when(@includeClasses = true) {
+	.@{nameSpace}-icon-float-away {
+		.icon-float-away();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/icons/_icon-sink-away";
+& when(@includeClasses = true) {
+	.@{nameSpace}-icon-sink-away {
+		.icon-sink-away();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/icons/_icon-grow";
+& when(@includeClasses = true) {
+	.@{nameSpace}-icon-grow {
+		.icon-grow();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/icons/_icon-shrink";
+& when(@includeClasses = true) {
+	.@{nameSpace}-icon-shrink {
+		.icon-shrink();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/icons/_icon-pulse";
+& when(@includeClasses = true) {
+	.@{nameSpace}-icon-pulse {
+		.icon-pulse();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/icons/_icon-pulse-grow";
+& when(@includeClasses = true) {
+	.@{nameSpace}-icon-pulse-grow {
+		.icon-pulse-grow();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/icons/_icon-pulse-shrink";
+& when(@includeClasses = true) {
+	.@{nameSpace}-icon-pulse-shrink {
+		.icon-pulse-shrink();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/icons/_icon-push";
+& when(@includeClasses = true) {
+	.@{nameSpace}-icon-push {
+		.icon-push();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/icons/_icon-pop";
+& when(@includeClasses = true) {
+	.@{nameSpace}-icon-pop {
+		.icon-pop();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/icons/_icon-bounce";
+& when(@includeClasses = true) {
+	.@{nameSpace}-icon-bounce {
+		.icon-bounce();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/icons/_icon-rotate";
+& when(@includeClasses = true) {
+	.@{nameSpace}-icon-rotate {
+		.icon-rotate();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/icons/_icon-grow-rotate";
+& when(@includeClasses = true) {
+	.@{nameSpace}-icon-grow-rotate {
+		.icon-grow-rotate();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/icons/_icon-float";
+& when(@includeClasses = true) {
+	.@{nameSpace}-icon-float {
+		.icon-float();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/icons/_icon-sink";
+& when(@includeClasses = true) {
+	.@{nameSpace}-icon-sink {
+		.icon-sink();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/icons/_icon-bob";
+& when(@includeClasses = true) {
+	.@{nameSpace}-icon-bob {
+		.icon-bob();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/icons/_icon-hang";
+& when(@includeClasses = true) {
+	.@{nameSpace}-icon-hang {
+		.icon-hang();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/icons/_icon-wobble-horizontal";
+& when(@includeClasses = true) {
+	.@{nameSpace}-icon-wobble-horizontal {
+		.icon-wobble-horizontal();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/icons/_icon-wobble-vertical";
+& when(@includeClasses = true) {
+	.@{nameSpace}-icon-wobble-vertical {
+		.icon-wobble-vertical();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/icons/_icon-buzz";
+& when(@includeClasses = true) {
+	.@{nameSpace}-icon-buzz {
+		.icon-buzz();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/icons/_icon-buzz-out";
+& when(@includeClasses = true) {
+	.@{nameSpace}-icon-buzz-out {
+		.icon-buzz-out();
+	}
+}
+
+/* CURLS */
+@import "../../../../../Desktop/Hover-master/less/effects/curls/_curl-top-left";
+& when(@includeClasses = true) {
+	.@{nameSpace}-curl-top-left {
+		.curl-top-left();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/curls/_curl-top-right";
+& when(@includeClasses = true) {
+	.@{nameSpace}-curl-top-right {
+		.curl-top-right();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/curls/_curl-bottom-right";
+& when(@includeClasses = true) {
+	.@{nameSpace}-curl-bottom-right {
+		.curl-bottom-right();
+	}
+}
+
+@import "../../../../../Desktop/Hover-master/less/effects/curls/_curl-bottom-left";
+& when(@includeClasses = true) {
+	.@{nameSpace}-curl-bottom-left {
+		.curl-bottom-left();
+	}
+}

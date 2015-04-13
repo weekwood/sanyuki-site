@@ -1,3 +1,8 @@
+/*-----------------------------------------------------------------------------------*/
+/*
+/*      Built with Blocs
+/*-----------------------------------------------------------------------------------*/
+
 body{
 	margin:0;
 	padding:0;
@@ -318,6 +323,56 @@ iframe{
 	background-image: none;
 }
 
+.product {
+	width:  33%;
+	height: 0;
+	float: left;
+	border: 0.5px solid;
+	padding-bottom: 33%;
+}
+
+.product div {
+	width:  100%;
+	height: 0;
+	padding-bottom: 100%;
+	opacity: 0.0;
+	-webkit-transition: all 500ms ease-in-out;
+	-moz-transition: all 500ms ease-in-out;
+	-ms-transition: all 500ms ease-in-out;
+	-o-transition: all 500ms ease-in-out;
+	transition: all 500ms ease-in-out;
+}
+.product img {
+	margin: 0;
+	width: 100%;
+	display: block;
+}
+
+.product:hover > div {
+	opacity: 1.0;
+}
+.hvr-sweep-to-top:hover {
+	background-color: #EA667F;
+}
+
+
+
+.product.w2 { width: 66%; }
+.product.w3 { width: 99%; }
+
+.product.height2 { height: 0; padding-bottom: 66%}
+.product.height3 { height: 0; padding-bottom: 99%}
+
+.masonry {
+	max-width: 1170px;
+}
+
+.masonry:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
 /* Mobile adjustments */
 
 @media (max-width: 767px)
@@ -409,3 +464,4 @@ iframe{
        display:none;
     }
 }
+
