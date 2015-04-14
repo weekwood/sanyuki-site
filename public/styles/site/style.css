@@ -323,54 +323,102 @@ iframe{
 	background-image: none;
 }
 
+.products {
+	background-color: #fff;
+	border: 2px solid #FAFBFC;
+}	
+
+
 .product {
-	width:  33%;
-	height: 0;
+	width:  23vw;
+	height: 23vw;
 	float: left;
 	border: 0.5px solid;
-	padding-bottom: 33%;
+	padding: 10px 10px;
+}
+.product.w2 { width: 46vw; }
+.product.height2 { height: 46vw;}
+
+
+.product > div {
+	position: absolute;
+	display: block;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	top: 50%;
+	font-size: 6rem;
+	color: #fff;
+	text-shadow: 0 0 3rem rgba(0,0,0,.15);
+	opacity: 0;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	transition: opacity .2s linear;
+	transition-delay: .05s;
+	background-color: #E85875;
+	z-index: 15;
+}
+.product > img {
+	display: block;
+	width: 100%;
+	border: 1px solid #fff;
+	border-radius: 3px;
+	background-color: #FAFBFC;
+	position: absolute;
 }
 
-.product div {
-	width:  100%;
-	height: 0;
-	padding-bottom: 100%;
-	opacity: 0.0;
-	-webkit-transition: all 500ms ease-in-out;
-	-moz-transition: all 500ms ease-in-out;
-	-ms-transition: all 500ms ease-in-out;
-	-o-transition: all 500ms ease-in-out;
-	transition: all 500ms ease-in-out;
+.hover-info  p {
+	font-size: 14px;
 }
-.product img {
-	margin: 0;
-	width: 100%;
+
+.hover-detail {
 	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%); /* Safari and Chrome */
+	-moz-transform: translate(-50%, -50%); /* Firefox */
+	-ms-transform: translate(-50%, -50%); /* IE 9 */
+	-o-transform: translate(-50%, -50%); /* Opera */
+}
+
+
+.product h5 {
+	position: absolute;
+	color: #ababab;
+	top: 18px;
+	left: 18px;
+	z-index: 10;
+}
+
+.product:hover img {
+	opacity: .65;
 }
 
 .product:hover > div {
 	opacity: 1.0;
 }
-.hvr-sweep-to-top:hover {
-	background-color: #EA667F;
-}
-
-
-
-.product.w2 { width: 66%; }
-.product.w3 { width: 99%; }
-
-.product.height2 { height: 0; padding-bottom: 66%}
-.product.height3 { height: 0; padding-bottom: 99%}
 
 .masonry {
 	max-width: 1170px;
 }
 
-.masonry:after {
-	content: '';
-	display: block;
-	clear: both;
+
+.sections .item {
+	padding: 50px 0px;
+	
+}	
+.sections .item > p {
+	color: #E85875;
+	text-align: center;
+}
+
+.sections .item > h4 {
+	font-size: 28px;
+	color: #E85875;
+	text-align: center;
 }
 
 /* Mobile adjustments */
