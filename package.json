@@ -8,6 +8,28 @@
     "underscore": "~1.7.0",
     "dotenv": "~0.4.0"
   },
+  "devDependencies": {
+    "faker": "^2.1.2",
+    "gulp": "^3.8.11",
+    "gulp-git": "*",
+    "gulp-jscs": "*",
+    "gulp-jscs-stylish": "*",
+    "gulp-jshint": "*",
+    "gulp-rename": "~1.2.2",
+    "gulp-uglify": "~1.1.0",
+    "gulp-util": "~3.0.4",
+    "gulp-watch": "~4.2.4",
+    "istanbul": "^0.3.7",
+    "jscs": "^1.11.3",
+    "jshint": "~2.6.0",
+    "jshint-stylish": "~1.0.0",
+    "mocha": "^2.2.1",
+    "must": ">= 0.12 < 1",
+    "should": "^5.0.1",
+    "supertest": "^0.15.0",
+    "supertest-session": "0.0.7",
+    "test": "^0.6.0"
+  },
   "engines": {
     "node": ">=0.10.22",
     "npm": ">=1.3.14"
